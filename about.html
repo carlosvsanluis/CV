@@ -4,16 +4,7 @@
 <head>
   <meta charset='UTF-8'>
   <title>About Carlos</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <style>
-       /* Set the size of the div element that contains the map */
-      #map {
-        height: 400px;  /* The height is 400 pixels */
-        width: 100%;  /* The width is the width of the web page */
-       }
-
-</head>
+ </head>
 
 <body>
   <div class="container">
@@ -75,9 +66,9 @@ function initMap() {
   var uluru = {lat: 48.343242, lng: -1.199849};
   // The map, centered at Uluru
   var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: Me});
+      document.getElementById('map'), {zoom: 4, center: Carlos});
   // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: Me, map: map});
+  var marker = new google.maps.Marker({position: Carlos, map: map});
 }
     </script>
     <!--Load the API from the specified URL
